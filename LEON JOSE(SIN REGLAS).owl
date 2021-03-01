@@ -1,0 +1,3609 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/estudiante/ontologies/2021/1/untitled-ontology-34"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/estudiante/ontologies/2021/1/untitled-ontology-34">
+    <Prefix name="" IRI="http://www.semanticweb.org/estudiante/ontologies/2021/1/untitled-ontology-34"/>
+    <Prefix name="ex" IRI="http://www.semanticweb.org/estudiante/ontologies/2021/1/untitled-ontology-34#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Admisible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambidiestro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciudad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClubDeFutbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClubHistorico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrenador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estadio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstadioGrande"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstadioMediano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstadioPequeño"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experimentado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Futbolista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PropietarioClub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelecciónNacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Veterano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entrenaClub"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entrenaFutbolista"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entrenadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esDuenioDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#internacionalCon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceALiga"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#resideEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneClub"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDeResidenteA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDuenio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneEstadio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneFutbolista"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLiga"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSeleccionado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anioDeDebut"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#anioDeFundacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#estaturaCm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minutosEnLiga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pesoKg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#piernaBuena"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosAparicionesContinentales"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosAparicionesEnLiga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosAparicionesInternacionales"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosClubFA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosFutbolistaFA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosLiga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosObtenidos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ranking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rankingClub"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rankingLiga"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rankingSeleccion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alan_Franco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anfield"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arsenal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aubameyang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Belo_Horizonte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Blaca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chelsea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daniel_Levy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emirates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etihad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fenway_Sports_Group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fernandinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Firmino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Kane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jorge_Sampaoli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#José_Mourinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jürgen_Klopp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LDU_Quito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Alemania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Arabia_Saudita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Argentina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Austria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Brasil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Bélgica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Chile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Chipre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Colombia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Corea_Del_Sur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Croacia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Dinamarca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Ecuador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Egipto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Escocia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_España"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Francia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Grecia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Israel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Italia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Marruecos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_México"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Paraguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Países_Bajos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Portugal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Republica_Checa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Rumania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Rusia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Serbia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Turquía"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Ucrania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liga_Uruguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Londrés"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manchester_United"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mansour_bin_Zayed_Al_Nahyan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michel_Deller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mikel_Arteta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Old_Trafford"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ole_Gunnar_Solskjær"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olímpico_Atahualpa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pablo_Repetto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phil_Foden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raimundo_Sampaio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Renato_Paiva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rodrigo_Paz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roman_Abramovich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Alemania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Argentina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Brasil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Corea_del_Sur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Ecuador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Francia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Gabón"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Inglatera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Marruecos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Portugal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Senegal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selección_Uruguay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stan_Kroenke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stanford_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Glazer_Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas_Tuchel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timo_Werner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tottenham_Hotspur_Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sérgio_Sette_Câmara​"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Admisible"/>
+        <ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#edad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#puntosObtenidos"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EstadioGrande"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Estadio"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#capacidad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EstadioMediano"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Estadio"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#capacidad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10000</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EstadioPequeño"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Estadio"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#capacidad"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                    </FacetRestriction>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Joven"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#edad"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">21</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Veterano"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#edad"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Admisible"/>
+        <Class IRI="#Futbolista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambidiestro"/>
+        <Class IRI="#Futbolista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClubDeFutbol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneDuenio"/>
+            <Class IRI="#PropietarioClub"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClubHistorico"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrenador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#entrenaClub"/>
+            <Class IRI="#ClubDeFutbol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estadio"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#capacidad"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadioGrande"/>
+        <Class IRI="#Estadio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadioMediano"/>
+        <Class IRI="#Estadio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstadioPequeño"/>
+        <Class IRI="#Estadio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experimentado"/>
+        <Class IRI="#Futbolista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futbolista"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneClub"/>
+            <Class IRI="#ClubDeFutbol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joven"/>
+        <Class IRI="#Futbolista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liga"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#rankingLiga"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PropietarioClub"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#esDuenioDe"/>
+            <Class IRI="#ClubDeFutbol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelecciónNacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneSeleccionado"/>
+            <Class IRI="#Futbolista"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelecciónNacional"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#rankingSeleccion"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Veterano"/>
+        <Class IRI="#Futbolista"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Ciudad"/>
+        <NamedIndividual IRI="#Belo_Horizonte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ciudad"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ciudad"/>
+        <NamedIndividual IRI="#Londrés"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ciudad"/>
+        <NamedIndividual IRI="#Manchester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ciudad"/>
+        <NamedIndividual IRI="#Quito"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <NamedIndividual IRI="#Selección_Ecuador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <NamedIndividual IRI="#Londrés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <NamedIndividual IRI="#Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <NamedIndividual IRI="#Belo_Horizonte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <NamedIndividual IRI="#Raimundo_Sampaio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <NamedIndividual IRI="#Liga_Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <NamedIndividual IRI="#Selección_Gabón"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <NamedIndividual IRI="#Arsenal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <NamedIndividual IRI="#Selección_Portugal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <NamedIndividual IRI="#Selección_Inglatera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <NamedIndividual IRI="#Arsenal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <NamedIndividual IRI="#Londrés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <NamedIndividual IRI="#Stanford_Bridge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Daniel_Levy"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Fenway_Sports_Group"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <NamedIndividual IRI="#Selección_Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <NamedIndividual IRI="#Selección_Brasil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <NamedIndividual IRI="#Selección_Marruecos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <NamedIndividual IRI="#Chelsea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <NamedIndividual IRI="#Selección_Inglatera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <NamedIndividual IRI="#Quito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <NamedIndividual IRI="#Olímpico_Atahualpa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <NamedIndividual IRI="#Liga_Ecuador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Jorge_Sampaoli"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#José_Mourinho"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Jürgen_Klopp"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <NamedIndividual IRI="#Quito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <NamedIndividual IRI="#Casa_Blaca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <NamedIndividual IRI="#Liga_Ecuador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <NamedIndividual IRI="#Liverpool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <NamedIndividual IRI="#Anfield"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Manchester"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Etihad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <NamedIndividual IRI="#Manchester"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <NamedIndividual IRI="#Old_Trafford"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Mansour_bin_Zayed_Al_Nahyan"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Michel_Deller"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Mikel_Arteta"/>
+        <NamedIndividual IRI="#Arsenal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <NamedIndividual IRI="#Selección_Ecuador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Ole_Gunnar_Solskjær"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Pablo_Repetto"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <NamedIndividual IRI="#Selección_Francia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Pep_Guardiola"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <NamedIndividual IRI="#Selección_Inglatera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Renato_Paiva"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Rodrigo_Paz"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Roman_Abramovich"/>
+        <NamedIndividual IRI="#Chelsea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <NamedIndividual IRI="#Selección_Senegal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <NamedIndividual IRI="#Selección_Corea_del_Sur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Stan_Kroenke"/>
+        <NamedIndividual IRI="#Arsenal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#The_Glazer_Family"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <NamedIndividual IRI="#Thomas_Tuchel"/>
+        <NamedIndividual IRI="#Chelsea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <NamedIndividual IRI="#Selección_Alemania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClub"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <NamedIndividual IRI="#Chelsea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <NamedIndividual IRI="#Londrés"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur_Stadium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <NamedIndividual IRI="#Sérgio_Sette_Câmara​"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">176</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">985</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">433</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1528</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Alan_Franco"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Anfield"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">53394</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1886</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Arsenal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1908</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Atletico_Mineiro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">147</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">187</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4741</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4478</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8596</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Aubameyang"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">179</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">439</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1513</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3213</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Bruno_Fernandes"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">178</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">767</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">308</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3536</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+        <Literal>Izquierda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Casa_Blaca"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">42000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1905</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Chelsea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Emirates"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60260</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Etihad"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">55097</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">179</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8064</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3051</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18547</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Fernandinho"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">181</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3527</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2664</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15340</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">76</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Firmino"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">181</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2949</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2581</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">634</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Hakim_Ziyech"/>
+        <Literal>Izquierda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">188</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3812</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3931</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18926</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">86</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Harry_Kane"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1958</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Independiente_del_Valle"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1918</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#LDU_Quito"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Alemania"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Arabia_Saudita"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Argentina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Austria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Brasil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Bélgica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Chile"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Chipre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Colombia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Corea_Del_Sur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Croacia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Dinamarca"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Ecuador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Egipto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Escocia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_España"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Francia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Grecia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Inglaterra"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Israel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Italia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Marruecos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_México"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Paraguay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Países_Bajos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Portugal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Republica_Checa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Rumania"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Rusia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Serbia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Turquía"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Ucrania"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingLiga"/>
+        <NamedIndividual IRI="#Liga_Uruguay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1892</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Liverpool_FC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1880</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Manchester_City"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1878</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Manchester_United"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">178</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">317</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">337</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1713</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Moises_Caicedo"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Old_Trafford"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">76000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Olímpico_Atahualpa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35742</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">191</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5691</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5822</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10391</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">84</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Paul_Pogba"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">171</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">187</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2375</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Phil_Foden"/>
+        <Literal>Izquierda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Raimundo_Sampaio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">62000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">175</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3950</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5481</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12078</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Sadio_Mané"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Alemania"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Argentina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Brasil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Corea_del_Sur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Ecuador"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Francia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Gabón"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">86</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Inglatera"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Marruecos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Portugal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Senegal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <NamedIndividual IRI="#Selección_Uruguay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">183</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6603</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">77</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Son_Heung_Min"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Stanford_Bridge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">41837</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeDebut"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#estaturaCm"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1290</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2406</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1743</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pesoKg"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">76</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#piernaBuena"/>
+        <NamedIndividual IRI="#Timo_Werner"/>
+        <Literal>Derecha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1882</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rankingClub"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#Tottenham_Hotspur_Stadium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">62303</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#entrenadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#entrenaFutbolista"/>
+        <ObjectProperty IRI="#entrenadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <ObjectProperty IRI="#tieneDuenio"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#perteneceALiga"/>
+        <ObjectProperty IRI="#tieneLiga"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#resideEn"/>
+        <ObjectProperty IRI="#tieneDeResidenteA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneClub"/>
+        <ObjectProperty IRI="#tieneFutbolista"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#entrenaClub"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#tieneEstadio"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <Class IRI="#Entrenador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#entrenaFutbolista"/>
+        <Class IRI="#Entrenador"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <Class IRI="#PropietarioClub"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <Class IRI="#Futbolista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneClub"/>
+        <Class IRI="#Futbolista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneDeResidenteA"/>
+        <Class IRI="#Ciudad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneFutbolista"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneSeleccionado"/>
+        <Class IRI="#SelecciónNacional"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#entrenaClub"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#entrenaFutbolista"/>
+        <Class IRI="#Futbolista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#entrenadoPor"/>
+        <Class IRI="#Entrenador"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esDuenioDe"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estaEnCiudad"/>
+        <Class IRI="#Ciudad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#internacionalCon"/>
+        <Class IRI="#SelecciónNacional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#resideEn"/>
+        <Class IRI="#Ciudad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneClub"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneEstadio"/>
+        <Class IRI="#Estadio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneFutbolista"/>
+        <Class IRI="#Futbolista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneLiga"/>
+        <Class IRI="#Liga"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneSeleccionado"/>
+        <Class IRI="#Futbolista"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ranking"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rankingClub"/>
+        <DataProperty IRI="#ranking"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rankingLiga"/>
+        <DataProperty IRI="#ranking"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <DataProperty IRI="#ranking"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#anioDeDebut"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#anioDeFundacion"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#capacidad"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#piernaBuena"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anioDeDebut"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacidad"/>
+        <Class IRI="#Estadio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edad"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#estaturaCm"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pesoKg"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#piernaBuena"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosAparicionesContinentales"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosAparicionesEnLiga"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosAparicionesInternacionales"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosClubFA"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosFutbolistaFA"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosLiga"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosObtenidos"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+        <Class IRI="#Futbolista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rankingClub"/>
+        <Class IRI="#ClubDeFutbol"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rankingLiga"/>
+        <Class IRI="#Liga"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <Class IRI="#SelecciónNacional"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#anioDeDebut"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#anioDeFundacion"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#estaturaCm"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#manejaPiernaNoHabil"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minutosCompeticionContinental"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minutosEnLiga"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pesoKg"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#piernaBuena"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#posicionLigaAnterior"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosAparicionesContinentales"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosAparicionesEnLiga"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosAparicionesInternacionales"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosClubFA"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosFutbolistaFA"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosLiga"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosObtenidos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rankingClub"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rankingLiga"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rankingSeleccion"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>3 Puntos de la FA si el ranking de liga es MAyor a 15</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S09</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#rankingLiga"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#z"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosLiga"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>1 Punto de la FA si el ranking de liga es Menor o igual a 33</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S08</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#rankingLiga"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#z"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosLiga"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>1  Puntos de la FA si el club ha llegado hasta a 3a ronda (cuartos de final)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S11</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>2 Puntos de la FA si el club ha llegado al menos a 4a ronda (semifinales)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S10</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>0  Puntos de la FA si el club ha llegado hasta a 3a ronda (cuartos de final)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S12</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#maximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>0 Puntos de la FA por posicion liga anterior mayor o igual a 10o puesto</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S07</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#posicionLigaAnterior"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>1 Punto de la FA por posicion liga anterior entre 5o puesto y 9o puesto</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S06</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#posicionLigaAnterior"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>2 Puntos de la FA por posicion liga anterior entre 1o puesto y 4o puesto</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S05</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#posicionLigaAnterior"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+                <Variable IRI="#f"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Puntos de la FA al club</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S121</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#f"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosPosicionLigaAnterior"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pla"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pl"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosMaximaRondaUltmimaCompeticionContinental"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pcc"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#p"/>
+                <Variable IRI="#pla"/>
+                <Variable IRI="#pl"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#p"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#pcc"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosClubFA"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#p"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Club historico aque que tenga mas de 80 anios de fundacion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S01</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#ClubDeFutbol"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#anioDeFundacion"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2021</Literal>
+                <Variable IRI="#y"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#z"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#ClubHistorico"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Club historico aque que tenga mas de 80 anios de fundacion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S00</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Entrenador"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#entrenaClub"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#entrenaFutbolista"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Si un club esta en una ciudad entonces los futbolistas de ese club residen en la misma ciudad</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S03</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#estaEnCiudad"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#resideEn"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Calculo de los puntos de la FA para el  futbolista / 15</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S24</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tieneClub"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosClubFA"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#pc"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosFutbolistaFA"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pf"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#p"/>
+                <Variable IRI="#pc"/>
+                <Variable IRI="#pf"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosObtenidos"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#p"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Futbolista maduro con 8 anios de carrera</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S04</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#anioDeDebut"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2021</Literal>
+                <Variable IRI="#a"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#y"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Experimentado"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Si un futbolista maneja su pierna no habil, entonces es ambidiestro</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S02</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#manejaPiernaNoHabil"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Ambidiestro"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>2 puntos de la FA si ha jugado al menos 900 minutos en competicion continental</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S221</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosCompeticionContinental"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#m"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#m"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesContinentales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>1 puntos de la FA si ha jugado menos de 900 minutos en competicion continental</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S222</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosCompeticionContinental"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#m"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#m"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesContinentales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>1 puntos de la FA si ha jugado al menos 100 minutos en seleccion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S17</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ms"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>2 puntos de la FA si ha jugado al menos 200 minutos en seleccion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S16</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ms"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>3 puntos de la FA si ha jugado al menos 300 minutos en seleccion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S15</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ms"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>4 puntos de la FA si ha jugado al menos 400 minutos en seleccion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S14</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ms"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>5 puntos de la FA si ha jugado al menos 500 minutos en seleccion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S13</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ms"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>0 puntos de la FA si ha jugado menos de 90 minutos en seleccion</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S18</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosConSeleccionIncluyendoMenores"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ms"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ms"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">90</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>3 puntos de la FA si ha jugado al menos  3000 minutos EN SU LIGA</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S20</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosEnLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ml"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ml"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesEnLiga"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>2 puntos de la FA si ha jugado al menos de 900 minutos EN SU LIGA</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S21</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosEnLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ml"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ml"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="#ml"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesEnLiga"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>1 puntos de la FA si ha jugado menos de 900 minutos EN SU LIGA</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S22</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minutosEnLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#ml"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#ml"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesEnLiga"/>
+                <Variable IRI="#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Calculo de los puntos de la FA para el desempe;o del futbolista / 10</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S23</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Futbolista"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesContinentales"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pac"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesInternacionales"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pai"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosAparicionesEnLiga"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#pal"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#p"/>
+                <Variable IRI="#pac"/>
+                <Variable IRI="#pai"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="#p"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#pal"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#puntosFutbolistaFA"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#p"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

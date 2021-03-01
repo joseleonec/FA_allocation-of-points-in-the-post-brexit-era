@@ -1,0 +1,111 @@
+--Prefijos
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://www.semanticweb.org/estudiante/ontologies/2021/1/untitled-ontology-34#>
+
+-------------------------------------------------------------------------------------------
+1.Mostrar el puntaje de cada jugador para evaluar su permiso de trabajo
+
+SELECT distinct ( ?x AS ?futbolista)  ( (?a+?b+?c+?d+?e+?f)  AS ?puntosFA )
+WHERE {
+	?x ex:puntosPosicionLigaAnterior ?a;
+	ex:puntosMaximaRondaUltmimaCompeticionContinental ?b;
+	ex:puntosAparicionesContinentales ?c;
+	ex:puntosLiga ?d;
+	ex:puntosAparicionesInternacionales ?e;
+	ex:puntosAparicionesEnLiga ?f.
+}
+-------------------------------------------------------------------------------------------
+2. Mostrar los futbolistas Zurdos
+
+SELECT distinct (?f as ?FutbolistaZurdo) (?c as ?PiernaBuena)
+WHERE { 
+	?f a ex:Futbolista;
+	   ex:piernaBuena ?c.	
+	Filter( ?c = "Izquierda").
+}
+-------------------------------------------------------------------------------------------
+3. Futbolistas que midan mas de 1.8 metros
+
+SELECT distinct ?f ?estatura
+WHERE { 
+	?f a ex:Futbolista;
+	   ex:estaturaCm ?estatura.
+	FILTER(?estatura > 180).
+}
+
+-------------------------------------------------------------------------------------------
+4. Mostrar los jugadores que no sería admisibles con la nueva política de traspasos, es decir tienen menos de 10 puntos
+
+SELECT distinct ( ?x AS ?futbolistaNoAdmisible) 
+WHERE {
+	?x ex:puntosPosicionLigaAnterior ?a;
+	ex:edad ?edad;
+	ex:puntosMaximaRondaUltmimaCompeticionContinental ?b;
+	ex:puntosAparicionesContinentales ?c;
+	ex:puntosLiga ?d;
+	ex:puntosAparicionesInternacionales ?e;
+	ex:puntosAparicionesEnLiga ?f.
+	FILTER( (?a+?b+?c+?d+?e+?f)  < 10 || ?edad < 18).
+}
+
+-------------------------------------------------------------------------------------------
+5. Estadios Grandes con capacidad mayor a 40000 espectadores
+
+SELECT distinct ( ?x AS ?Estadio)  (?c AS ?Capacidad)
+WHERE {
+	?x a ex:Estadio;
+	    ex:capacidad ?c.
+	FILTER( ?c > 40000).
+}
+-------------------------------------------------------------------------------------------
+6. Jugadores jovenes con edad menor entre 18 y 21 
+
+SELECT distinct ( ?x AS ?FutbolistaJoven)  ?edad
+WHERE {
+	?x a ex:Futbolista;
+	      ex:edad ?edad.
+	FILTER( ?edad >18 && ?edad < 21 ).
+}
+
+-------------------------------------------------------------------------------------------
+7. clubes historicos con más de 80 años de fundación
+
+SELECT distinct (?x as ?Club) ( (2021 - ?a) as ?Años )
+WHERE {
+	?x a ex:ClubDeFutbol;
+	      ex:anioDeFundacion ?a.
+	Filter( 2021 - ?a >= 80)
+} 
+
+
+-------------------------------------------------------------------------------------------
+8. Selecciones nacionales en el Top 5
+
+SELECT distinct (?x as ?SeleccionNacional) ( ?a as ?PosicionEnRanking )
+WHERE {
+	?x a ex:SelecciónNacional;
+	      ex:rankingSeleccion ?a.
+	Filter(?a <= 5)
+} order by ?a
+
+-------------------------------------------------------------------------------------------
+9. Las 5 mejores ligas
+SELECT distinct (?x as ?Liga( ?a as ?PosicionEnRanking )
+WHERE {
+	?x a ex:Liga;
+	      ex:rankingLiga ?a.
+	Filter(?a <= 5)
+} order by ?a
+
+-------------------------------------------------------------------------------------------
+10. los 5 mejores clubes
+
+SELECT distinct (?x as ?Club) ( ?a as ?PosicionEnRanking )
+WHERE {
+	?x a ex:ClubDeFutbol;
+	      ex:rankingClub ?a.
+	Filter(?a <= 5)
+} order by ?a
